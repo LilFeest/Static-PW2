@@ -1,0 +1,33 @@
+@primary-bg-color: #102e4a;
+@primary-tx-color: #fff;
+@secondary-bg-color: #fff;
+@secondary-tx-color: #000;
+
+@primary-shadow: #000;
+
+@size:{
+    phone: 320px;
+    tablet: 760px;
+    desktop: 1024px;
+    windescreen: 1200px;
+}
+
+@size-prf : {
+    phone: s;
+    tablet: m;
+    desktop: 1;
+    windescreen: x1;
+}
+@import "helpers.less";
+@import "grid.less";
+@import "landing.less";
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    .no_padding_margin();
+    background-color: @primary-bg-color;
+    color: @primary-tx-color;
+}

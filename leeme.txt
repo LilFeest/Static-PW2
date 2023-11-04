@@ -1,0 +1,1 @@
+no mandar la carpeta node_modules
